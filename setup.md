@@ -11,7 +11,7 @@ In this scenario, I use shopmart-sales-data as my S3 bucket. Inside the bucket, 
 
 Create an AWS Lambda Function using Python. The Lambda function is name "process" <br>
 ![Create Lambda Function](image-2.png)
-After that, upload the lambda_function.py to the Lambda function <br>
+After that, upload the `lambda_function.py` to the Lambda function <br>
 ![Code upload](image-3.png)
 
 **CONFIGURE LAMBDA IAM PERMISSIONS**<br>
@@ -30,8 +30,8 @@ Required permissions include:
 **CONFIGURE S3 TRIGGER**<br>
 
 Add an S3 trigger to the Lambda function. Use the following trigger configuration<br>
-* Event type: ObjectCreated (PUT)
-* Prefix: store-001/raw
+* Event type: `ObjectCreated (PUT)`
+* Prefix: `store-001/raw`
 * Suffix: 
 ![Configure S3 trigger](image-4.png)
 
