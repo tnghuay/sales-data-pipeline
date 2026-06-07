@@ -1,3 +1,5 @@
+This instruction will focus on some key points to set up the pipeline.<br>
+
 **SET UP S3 BUCKET**<br>
 
 In this scenario, I use shopmart-sales-data as my S3 bucket. Inside the bucket, create the following folders for each stores. For example, `store_001` has four subfolder `raw/, processed/, errors/, analytics/` <br>
